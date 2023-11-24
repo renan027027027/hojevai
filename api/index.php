@@ -2,5 +2,19 @@
 
 header('Content-Type: application/json');
 
-echo file_get_contents(__DIR__ . '/../src/index.ts');
+$numero = "SURPRESA";
+
 ?>
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title><?php echo $numero; ?></title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    Aqui vai o código HTML que fará seu site aparecer.
+  </body>
+</html>
