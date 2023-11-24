@@ -2,14 +2,11 @@
 
 header('Content-Type: application/json');
 
-$numero = "SURPRESA";
+$numero = "6" + "7";
 
 ?>
 
-
-
-<!DOCTYPE html>
-<html lang="pt-br">
+<html >
   <head>
     <title><?php echo $numero; ?></title>
     <meta charset="utf-8">
